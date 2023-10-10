@@ -19,7 +19,8 @@ def get_user_by_pin(request, pin):
         user_data = {
             'password': user.password,
             'email': user.email,
-            'token':user.token
+            'token':user.token,
+            'role':user.role
             # Add more fields as needed.
         }
         
