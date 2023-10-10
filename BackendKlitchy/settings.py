@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-=%5gs_hvx(!_jerw#x_65ha=d$diqyj)_2+j2=55r#3@y!jpzs
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CORS_ALLOWED_ORIGINS = ["*"]
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_METHODS = [
 'DELETE',
 'GET',
