@@ -47,7 +47,7 @@ CORS_ALLOW_HEADERS = [
 'x-requested-with',
 'Access-Control-Allow-Origin',
 ]
-CSRF_TRUSTED_ORIGINS=["*"]
+CSRF_TRUSTED_ORIGINS=["https://*","http://*"]
 # Application definition
 
 INSTALLED_APPS = [
