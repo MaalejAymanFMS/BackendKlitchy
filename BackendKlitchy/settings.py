@@ -47,7 +47,7 @@ CORS_ALLOW_HEADERS = [
 'x-requested-with',
 'Access-Control-Allow-Origin',
 ]
-CSRF_TRUSTED_ORIGINS=["https://*","http://*"]
+CSRF_TRUSTED_ORIGINS=["https://prime-verified-pug.ngrok-free.app","https://klitchy-deployement.vercel.app/"]
 # Application definition
 
 INSTALLED_APPS = [
