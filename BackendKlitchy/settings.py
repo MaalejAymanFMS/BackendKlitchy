@@ -36,8 +36,18 @@ CORS_ALLOW_METHODS = [
 'PUT',
 ]
 CORS_ALLOW_HEADERS = [
-"*"
+'accept',
+'accept-encoding',
+'authorization',
+'content-type',
+'dnt',
+'origin',
+'user-agent',
+'x-csrftoken',
+'x-requested-with',
+'Access-Control-Allow-Origin',
 ]
+CSRF_TRUSTED_ORIGINS=["*"]
 # Application definition
 
 INSTALLED_APPS = [
@@ -120,7 +130,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
-
+APPEND_SLASH = False
 LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "UTC"
