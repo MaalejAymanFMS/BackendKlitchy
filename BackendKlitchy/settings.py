@@ -98,14 +98,15 @@ WSGI_APPLICATION = "BackendKlitchy.wsgi.application"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'klitchy-jumpark',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'jumpark-klitchy-database.ctv16exk8jgr.eu-west-3.rds.amazonaws.com',
-        'PORT': '5432',
-    }
+  'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': 'klitchy-jumpark',
+    'USER': 'MaalejAymanFMS',
+    'PASSWORD': 'xFu5gvmSz4DH',
+    'HOST': 'ep-broad-sun-88870846.eu-central-1.aws.neon.tech',
+    'PORT': '5432',
+    'OPTIONS': {'sslmode': 'require'},
+  }
 }
 
 
